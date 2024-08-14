@@ -1,44 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Formulário</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<h1>Trabalhando com Vetores</h1>
-	<form id="formulario">
-		<label for="valor">Digite um valor de cada vez:</label>
-		<input type="text" id="valor"><br>
-		<br>
- <button type="button" id="add-btn" onclick="adicionarValor()">Adicionar Valor</button>
- <table id="tabelaValores">
-	 <thead>
-		 <tr>
-			 <th>Valores</th>
-		 </tr>
-   </thead>
-	  <tbody>
-			  <!-- Valores adicinados aparecerão aqui -->
-			</tbody>
-	</table>
-
-<button type="btn" id="add-btn" onclick="NumerosPares()">Mostrar números pares</button>
-	<table id="tabelaPares">
-		<thead>
-			<tr>
-				<th>Números Pares</th>
-			</tr>
-		</thead>
-		 <tbody>
-				 <!-- Números Pares aparecerão aqui -->
-			 </tbody>
-
-	 </table>
-
-	</form>
-
-	<script src="js/script.js"></script>
-</body>
+	<head>
+		<title>JobFinder</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<nav>
+					<div class="nav-container">
+						<img id="logo" src="img/logo.svg" alt="JobFinder">
+						<img id="logo" src="img/luneta.svg" alt="JobFinder">
+						<ul>
+							<li><a href="#">Comprar Online</a></li>
+							<li><a href="#">Produtos</a></li>
+							<li><a href="#">Negócios</a></li>
+							<li><a href="#">Educação</a></li>
+							<li><a href="#">Suporte</a></li>
+							<li><a href="#">Eventos</a></li>
+						</ul>
+					</div>
+				</nav>
+				<div id="main-banner">
+						<h1></h1>
+						<p></p>
+					</div>
+				</div>
+			</header>
+		</div>
+	</body>
+	<!-- <script src="https://kit.fontawesome.com/595d04b7d2.js" crossorigin="anonymous"></script> -->
+      <main id="lastjobs-container" class="wrappe">
+       <h1></h1>
+				  <ul>
+					 <li>
+            <a href="#" class="clickarca">
+						<div class="company-box">
+				    <img src="img/googlelogo.png">
+						<div class="company-info">
+							    <h3></h3>
+									<p></p>
+					 </div>
+				</div>
+        <div class="locality">
+			    <i class="fasfa_mp-marker-alt">
+			 </i>
+			    <p></p>
+			 </div>
+			 <div class="job-type">
+				 <spam class="clt"></spam>
+			</div>
+		        </a>
+					 </li>
+				 </ul>
+  </main>
 </html>
